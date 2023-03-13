@@ -13,6 +13,8 @@
 		B5AD284F29BF198300A79984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AD284D29BF198300A79984 /* Main.storyboard */; };
 		B5AD285129BF198300A79984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5AD285029BF198300A79984 /* Assets.xcassets */; };
 		B5AD285429BF198300A79984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AD285229BF198300A79984 /* LaunchScreen.storyboard */; };
+		B5AD285C29BF1F1E00A79984 /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD285B29BF1F1E00A79984 /* PopVC.swift */; };
+		B5AD285E29BF311400A79984 /* ViewControllerPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD285D29BF311400A79984 /* ViewControllerPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B5AD285029BF198300A79984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5AD285329BF198300A79984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5AD285529BF198300A79984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5AD285B29BF1F1E00A79984 /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
+		B5AD285D29BF311400A79984 /* ViewControllerPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				B5AD284729BF198300A79984 /* AppDelegate.swift */,
 				B5AD284929BF198300A79984 /* SceneDelegate.swift */,
 				B5AD284B29BF198300A79984 /* ViewController.swift */,
+				B5AD285B29BF1F1E00A79984 /* PopVC.swift */,
 				B5AD284D29BF198300A79984 /* Main.storyboard */,
 				B5AD285029BF198300A79984 /* Assets.xcassets */,
 				B5AD285229BF198300A79984 /* LaunchScreen.storyboard */,
 				B5AD285529BF198300A79984 /* Info.plist */,
+				B5AD285D29BF311400A79984 /* ViewControllerPreview.swift */,
 			);
 			path = "Lesson 5 CompactController";
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5AD284C29BF198300A79984 /* ViewController.swift in Sources */,
+				B5AD285E29BF311400A79984 /* ViewControllerPreview.swift in Sources */,
 				B5AD284829BF198300A79984 /* AppDelegate.swift in Sources */,
+				B5AD285C29BF1F1E00A79984 /* PopVC.swift in Sources */,
 				B5AD284A29BF198300A79984 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
